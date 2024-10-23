@@ -1,7 +1,15 @@
 package br.ETS.Feedback.informacoes;
 
 import br.ETS.Feedback.instrutor.DTO.DadosInformacoes;
+import jakarta.persistence.Embeddable;
+import lombok.*;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
+@Embeddable
 public class Informacoes {
 
     private String disciplina;
